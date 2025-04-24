@@ -9,7 +9,7 @@
 
 1. <a href="https://github.com/ian-bates-it/Azure-Virtual-Machine-Setup/edit/main/README.md#create-a-resource-group">Create a Resource Group</a>
 2. <a href="https://github.com/ian-bates-it/Azure-Virtual-Machine-Setup?tab=readme-ov-file#create-a-windows-10-pro-virtual-machine-version-22h2">Create a Windows 10 Pro Virtual Machine in Azure</a>
-3. <a href="https://github.com/ian-bates-it/Azure-Virtual-Machine-Setup/edit/main/README.md#create-a-windows-2022-server-virtual-machine-datacenter-azure-edition---x64-gen2">Create a Windows 2022 Server in Azure</a>
+3. <a href="https://github.com/ian-bates-it/Azure-Virtual-Machine-Setup/blob/main/README.md#create-a-windows-2022-server-virtual-machine-datacenter-azure-edition---x64-gen2">Create a Windows 2022 Server in Azure</a>
 
 
 
@@ -115,7 +115,7 @@ Select the `+ Create` button
 ---
 
 
-<h3>Instance Details</h3>
+<h3>Instance Details Section</h3>
 
 1. Add a name for the virtual machine
    - I called mine `Windows-10-Pro-VM`
@@ -225,6 +225,130 @@ Select the `+ Create` button
 <br />
 
 <h2>Create a Windows 2022 Server Virtual Machine (Datacenter: Azure Edition - x64 Gen2)</h2>
+
+
+---
+<h4>Go to Virtual Machines</h4>
+
+- Use the search bar to find Virtual Machines and select the Virtual Machine icon as shown below.
+
+
+<img src="https://github.com/user-attachments/assets/32545e20-9c89-444c-bfaf-299686dab989" height="40%" width="40%" />
+
+
+---
+
+
+<h3>Create Azure Virtual Machine</h3>
+
+- Select the `+ Create` button
+- Select the `Azure virtual machine` option from the drop-down menu
+
+<img src="https://github.com/user-attachments/assets/8365cda4-4592-4086-8101-12cc2ef0ee00" height="80%" width="80%" />
+
+
+---
+
+<h3>Project Details Section</h3>
+
+1. Select your subscription. Here I selected my `Azure subscription 1`
+2. Select the same resource group we selected above in the Windows 10 Pro VM.
+   - In this example, that resource group was `Network-Testing-RG` as shown below.
+
+<img src="https://github.com/user-attachments/assets/e159ecd7-8fb0-468a-9735-9a6555d8e3b2" height="80%" width="80%" />
+  
+
+---
+<br />
+<h3>Instance Details Section</h3>
+
+1. Name the Windows Server virtual machine. Here I named mine `Windows-2022-Server-VM`.
+2. Select the same region you selected above for the Resource Group and the Windows 10 Pro VM.
+   - In this example, my region for everything was `(US) East US` as shown below.
+  
+
+<img src="https://github.com/user-attachments/assets/2375764c-881f-4d4d-b657-ef0e9af53344" height="80%" width="80%" />
+
+
+---
+<br />
+
+<h3>Virtual Machine Image</h3>
+
+3. From the drop-down menu, select the `Windows Server 2022 Datacenter: Azure Edition - x64 Gen2` image from the drop down menu as shown below.
+
+<img src="https://github.com/user-attachments/assets/e8e13600-6498-43e6-a6d9-6ca08e69520e" height="80%" width="80%" />
+
+
+---
+<br />
+
+<h3>Virtual Machine Size</h3>
+
+4. Select the size of the Windows Server virtual machine. It is recommended that you select something with 2 vcpus.
+   - Here I selected the option `Standard_D2s_v3 - 2 vcpus, 8 GiB memory` as shown below.
+
+  <img src="https://github.com/user-attachments/assets/d47d5d96-78c3-4a76-9c20-75798a88ca59" height="80%" width="80%" />
+
+
+---
+<br />
+
+
+<h3>Virtual Machine Size</h3>
+
+1. Create a username and password for the Windows Server administrator account.
+   - Here I created a username of `Admin-DC` as shown below. 
+2. Select the `Next : Disks >` button at the bottom of the screen to continue as shown below
+
+  <img src="https://github.com/user-attachments/assets/92cca3de-c424-4aa1-b788-071549e94dce" height="80%" width="80%" />
+
+
+---
+<br />
+
+<h3>Disks Tab</h3>
+
+- Accept the default options in the Disks Tab.
+- Click the `Next : Networking >` tab at the bottom of the screen as shown below.
+
+
+  <img src="https://github.com/user-attachments/assets/046524db-8159-4552-87bd-c66b0788d6fe" height="80%" width="80%" />
+
+
+---
+<br />
+
+<h3>Networking Tab</h3>
+
+1. Make sure the Windows Server Virtual Network is set to the virtual network we created above in the Windows 10 Pro VM. Here, my virtual network was `helpdesk-vm`.
+2. Click the blue `Review + Create` button at the bottom of the screen to complete the installation as shown below.
+
+  <img src="https://github.com/user-attachments/assets/2d65cb81-e41f-47bf-9566-cf4349a53bf0" height="80%" width="80%" />
+
+
+---
+<br />
+
+
+<h3>Review and Create Windows 2022 Server Virtual Machine</h3>
+
+- Azure will validate your settings and confirm that your settings passed the validation test
+- Click the blue `Create` button at the bottom of the screen to create your Windows 10 Pro virtual machine as shown below
+
+<img src="https://github.com/user-attachments/assets/2d4dc629-bcfd-4ea1-ac6a-a4a8c5d5d0bd" height="70%" width="80%" />
+
+
+---
+<br />
+
+- Allow a few minutes for Azure to complete building your Windows Server virtual machine. Then you will get confirmation that the Windows Server is complete. It will look something like what is shown below.
+
+<img src="https://github.com/user-attachments/assets/9ed2e1f4-ca0a-429d-9b93-4c0f6394b5b8" height="70%" width="80%" />
+
+
+---
+
 
 
 
