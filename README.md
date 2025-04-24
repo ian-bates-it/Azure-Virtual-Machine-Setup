@@ -1,10 +1,15 @@
 # Azure Virtual Machine Setup
 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/6b153b0d-e780-42c1-aaa7-e978aa687226" height="30%" width="30%"/>
+</p>
+
+
 <h2>Table of Contents</h2>
 
-1. Create a Resource Group
+1. <a href="https://github.com/ian-bates-it/Azure-Virtual-Machine-Setup/edit/main/README.md#create-a-resource-group">Create a Resource Group</a>
 2. <a href="https://github.com/ian-bates-it/Azure-Virtual-Machine-Setup?tab=readme-ov-file#create-a-windows-10-pro-virtual-machine-version-22h2">Create a Windows 10 Pro Virtual Machine in Azure</a>
-3. <a href="">Create a Windows Server in Azure</a>
+3. <a href="https://github.com/ian-bates-it/Azure-Virtual-Machine-Setup/edit/main/README.md#create-a-windows-2022-server-virtual-machine-datacenter-azure-edition---x64-gen2">Create a Windows 2022 Server in Azure</a>
 
 
 
@@ -199,8 +204,27 @@ Select the `+ Create` button
 
 ---
 
+<h3>Review and Create Windows 10 Pro Virtual Machine</h3>
+
+- Azure will validate your settings and confirm that your settings passed the validation test
+- Click the blue `Create` button at the bottom of the screen to create your Windows 10 Pro virtual machine as shown below
+
+<img src="https://github.com/user-attachments/assets/3a0bbddd-2a13-429b-a4e8-bdc241e445bf" height="70%" width="80%" />
 
 
+---
+
+- After Azure completes building your virtual machine you will get a confirmation message like the one shown below.
+
+<img src="https://github.com/user-attachments/assets/7bf9e51e-f265-4e49-964f-96a19e6638c4" height="30%" width="30%" />
+
+
+
+---
+<br />
+<br />
+
+<h2>Create a Windows 2022 Server Virtual Machine (Datacenter: Azure Edition - x64 Gen2)</h2>
 
 
 
