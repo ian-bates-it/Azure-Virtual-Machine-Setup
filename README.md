@@ -2,7 +2,7 @@
 <img src="https://github.com/user-attachments/assets/6b153b0d-e780-42c1-aaa7-e978aa687226" height="20%" width="20%"/>
 </p>
 
-<h1>Azure Virtual Machine Setup</h1>
+<h1>Chapter 1: Azure Virtual Machine Setup</h1>
 This tutorial outlines the implementation of Azure Virtual Machines. We will first create a resource group named `Network-Testing-RG` and then create a Windows 10 Virtual Machine and a Windows 2022 Server VM as part of the `Network-Testing-RG` resource group.<br />
 
 ---
@@ -15,9 +15,9 @@ This tutorial outlines the implementation of Azure Virtual Machines. We will fir
 3. Step 3: <a href="https://github.com/ian-bates-it/Azure-Virtual-Machine-Setup/blob/main/README.md#create-a-windows-2022-server-virtual-machine-datacenter-azure-edition---x64-gen2">Create a Windows 2022 Server in Azure</a>
 -->
 
-1. Step 1: [Create a Resource Group](https://github.com/ian-bates-it/Azure-Virtual-Machine-Setup/edit/main/README.md#create-a-resource-group)
-2. Step 2: [Create a Windows 10 Pro Virtual Machine in Azure](https://github.com/ian-bates-it/Azure-Virtual-Machine-Setup?tab=readme-ov-file#create-a-windows-10-pro-virtual-machine-version-22h2)
-3. Step 3: [Create a Windows 2022 Server in Azure](https://github.com/ian-bates-it/Azure-Virtual-Machine-Setup/blob/main/README.md#create-a-windows-2022-server-virtual-machine-datacenter-azure-edition---x64-gen2)
+1. Part 1: [Create a Resource Group](https://github.com/ian-bates-it/Azure-Virtual-Machine-Setup/edit/main/README.md#create-a-resource-group)
+2. Part 2: [Create a Windows 10 Pro Virtual Machine in Azure](https://github.com/ian-bates-it/Azure-Virtual-Machine-Setup?tab=readme-ov-file#create-a-windows-10-pro-virtual-machine-version-22h2)
+3. Part 3: [Create a Windows 2022 Server in Azure](https://github.com/ian-bates-it/Azure-Virtual-Machine-Setup/blob/main/README.md#create-a-windows-2022-server-virtual-machine-datacenter-azure-edition---x64-gen2)
 
 ---
 
@@ -36,7 +36,7 @@ This tutorial outlines the implementation of Azure Virtual Machines. We will fir
 
 ---
 
-<h1>Step 1:</h1>
+<h1>Part 1:</h1>
 
 <h2>Create a Resource Group</h2>
 
@@ -89,7 +89,7 @@ Select the `+ Create` button
 
 ---
 
-<h1>Step 2:</h1>
+<h1>Part 2:</h1>
 
 <h2>Create a Windows 10 Pro Virtual Machine (version 22H2)</h2>
 
@@ -251,7 +251,7 @@ Select the `+ Create` button
 
 ---
 
-<h1>Step 3:</h1>
+<h1>Part 3:</h1>
 
 <h2>Create a Windows 2022 Server Virtual Machine (Datacenter: Azure Edition - x64 Gen2)</h2>
 
