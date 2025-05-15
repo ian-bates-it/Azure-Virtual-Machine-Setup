@@ -1,19 +1,42 @@
-# Azure Virtual Machine Setup
-
 <p align="center">
-<img src="https://github.com/user-attachments/assets/6b153b0d-e780-42c1-aaa7-e978aa687226" height="30%" width="30%"/>
+<img src="https://github.com/user-attachments/assets/6b153b0d-e780-42c1-aaa7-e978aa687226" height="20%" width="20%"/>
 </p>
 
+<h1>Azure Virtual Machine Setup</h1>
+This tutorial outlines the implementation of Azure Virtual Machines. We will first create a resource group named `Network-Testing-RG` and then create a Windows 10 Virtual Machine and a Windows 2022 Server VM as part of the `Network-Testing-RG` resource group.<br />
 
-<h2>Table of Contents</h2>
+---
 
-1. <a href="https://github.com/ian-bates-it/Azure-Virtual-Machine-Setup/edit/main/README.md#create-a-resource-group">Create a Resource Group</a>
-2. <a href="https://github.com/ian-bates-it/Azure-Virtual-Machine-Setup?tab=readme-ov-file#create-a-windows-10-pro-virtual-machine-version-22h2">Create a Windows 10 Pro Virtual Machine in Azure</a>
-3. <a href="https://github.com/ian-bates-it/Azure-Virtual-Machine-Setup/blob/main/README.md#create-a-windows-2022-server-virtual-machine-datacenter-azure-edition---x64-gen2">Create a Windows 2022 Server in Azure</a>
+<h2>High-Level Deployment and Configuration Steps</h2>
 
+<!--
+1. Step 1: <a href="https://github.com/ian-bates-it/Azure-Virtual-Machine-Setup/edit/main/README.md#create-a-resource-group">Create a Resource Group</a>
+2. Step 2: <a href="https://github.com/ian-bates-it/Azure-Virtual-Machine-Setup?tab=readme-ov-file#create-a-windows-10-pro-virtual-machine-version-22h2">Create a Windows 10 Pro Virtual Machine in Azure</a>
+3. Step 3: <a href="https://github.com/ian-bates-it/Azure-Virtual-Machine-Setup/blob/main/README.md#create-a-windows-2022-server-virtual-machine-datacenter-azure-edition---x64-gen2">Create a Windows 2022 Server in Azure</a>
+-->
 
+1. Step 1: [Create a Resource Group](https://github.com/ian-bates-it/Azure-Virtual-Machine-Setup/edit/main/README.md#create-a-resource-group)
+2. Step 2: [Create a Windows 10 Pro Virtual Machine in Azure](https://github.com/ian-bates-it/Azure-Virtual-Machine-Setup?tab=readme-ov-file#create-a-windows-10-pro-virtual-machine-version-22h2)
+3. Step 3: [Create a Windows 2022 Server in Azure](https://github.com/ian-bates-it/Azure-Virtual-Machine-Setup/blob/main/README.md#create-a-windows-2022-server-virtual-machine-datacenter-azure-edition---x64-gen2)
 
+---
 
+<h2>Environments and Technologies Used</h2>
+
+- Microsoft Azure (Virtual Machines/Compute)
+- Remote Desktop
+
+<h2>Operating Systems Used </h2>
+
+- Windows Server 2022
+- Windows 10 (21H2)
+
+<br />
+<br />
+
+---
+
+<h1>Step 1:</h1>
 
 <h2>Create a Resource Group</h2>
 
@@ -40,7 +63,7 @@ Select the `+ Create` button
 3. Select a data center region, preferably a location close to you. I selected `(US) Central US`
 4. Click the `Review + Create` button
 
-<img src="https://github.com/user-attachments/assets/9e9149e8-f618-4976-86a8-af3227bd4d47" height="80%" width="80%" />
+<img src="https://github.com/user-attachments/assets/9e9149e8-f618-4976-86a8-af3227bd4d47" height="60%" width="60%" />
 
 <br />
 
@@ -61,9 +84,12 @@ Select the `+ Create` button
 <img src="https://github.com/user-attachments/assets/4800896e-2792-4802-88fd-0dcadd207ae3" height="80%" width="80%" />
 
 
+<br />
+<br />
+
 ---
-<br />
-<br />
+
+<h1>Step 2:</h1>
 
 <h2>Create a Windows 10 Pro Virtual Machine (version 22H2)</h2>
 
@@ -220,9 +246,12 @@ Select the `+ Create` button
 
 
 
+<br />
+<br />
+
 ---
-<br />
-<br />
+
+<h1>Step 3:</h1>
 
 <h2>Create a Windows 2022 Server Virtual Machine (Datacenter: Azure Edition - x64 Gen2)</h2>
 
